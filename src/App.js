@@ -8,7 +8,6 @@ import About from "./component/about/about";
 import Mainpage from "./component/mainPage/mainpage";
 import Faq from "./component/faq/faq";
 import Featureevent from "./component/featureevent/featureevent";
-import Contacts from "./component/contact/contacts";
 import Department from "./component/department/department"
 import Special from "./component/special/special"
 import Mainevent from "./component/mainevent/mainevent";
