@@ -19,7 +19,6 @@ function App() {
   const [showSections, setShowSections] = useState(false);
   const [isNavbarFixed, setIsNavbarFixed] = useState(false);
   const [isMainPage, setIsMainPage] = useState(true);
-  const [showContacts, setShowContacts] = useState(false);
   const [showCredits, setCredits] = useState(false);
   const [showDepartments, setShowDepartments] = useState(false);
   const [showSpecial, setShowSpecial] = useState(false);
