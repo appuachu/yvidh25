@@ -18,7 +18,7 @@ export default function Mainevent() {
             filename: '',
             filelink:"",
             id:"34",
-            reglink:"https://forms.gle/A4VxtTC3G2qNJTqt6"
+            reglink:"http://reg.yvidh.live/voice_of_yvidh/"
           },
           {
             src: './assets_new/main_events/CHOREONITE.jpg',
@@ -42,7 +42,7 @@ export default function Mainevent() {
             filename: '',
             filelink:"",
             id:"37",
-            reglink:"https://forms.gle/XzEAg9heegorschd8"
+            reglink:"http://reg.yvidh.live/solo_sizzle/"
           },
           {
             src: './assets_new/main_events/REEL FEST.jpg',
