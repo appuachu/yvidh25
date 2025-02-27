@@ -115,7 +115,7 @@ function App() {
               <li className="nav-item">
                 <a className="nav-link" href="#AboutUs" onClick={handleContactsundoClick}>About</a>
               </li>
-              
+
             </ul>
           </div>
         </div>
@@ -158,9 +158,7 @@ function App() {
               <><section className="Sections" id="faq"><Faq handleCreditsClick={handleCreditsClick}/></section></>
             )}
             {showContacts && !showDepartments && !showSpecial && !showMain && !showCredits &&(
-              <><section className="Sectionsc" id="contacts">
-              <Contacts />
-            </section>
+
             </>
             )}
             {showCredits && !showDepartments && !showSpecial && !showMain && !showContacts &&(
