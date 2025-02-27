@@ -8,6 +8,7 @@ import About from "./component/about/about";
 import Mainpage from "./component/mainPage/mainpage";
 import Faq from "./component/faq/faq";
 import Featureevent from "./component/featureevent/featureevent";
+import Contacts from "./component/contact/contacts";
 import Department from "./component/department/department"
 import Special from "./component/special/special"
 import Mainevent from "./component/mainevent/mainevent";
@@ -18,6 +19,7 @@ function App() {
   const [showSections, setShowSections] = useState(false);
   const [isNavbarFixed, setIsNavbarFixed] = useState(false);
   const [isMainPage, setIsMainPage] = useState(true);
+  const [showContacts, setShowContacts] = useState(false);
   const [showCredits, setCredits] = useState(false);
   const [showDepartments, setShowDepartments] = useState(false);
   const [showSpecial, setShowSpecial] = useState(false);
@@ -113,7 +115,7 @@ function App() {
               <li className="nav-item">
                 <a className="nav-link" href="#AboutUs" onClick={handleContactsundoClick}>About</a>
               </li>
-
+              
             </ul>
           </div>
         </div>
@@ -156,7 +158,9 @@ function App() {
               <><section className="Sections" id="faq"><Faq handleCreditsClick={handleCreditsClick}/></section></>
             )}
             {showContacts && !showDepartments && !showSpecial && !showMain && !showCredits &&(
-
+              <><section className="Sectionsc" id="contacts">
+              <Contacts />
+            </section>
             </>
             )}
             {showCredits && !showDepartments && !showSpecial && !showMain && !showContacts &&(

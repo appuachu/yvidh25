@@ -44,7 +44,7 @@ export default function Mainpage() {
                     <div className="namey2">
                         <img src="./assets/Untitled-1.png" alt="Logo" />
                     </div>
-                    
+
                 </div>
             </div>
         </div>
