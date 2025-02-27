@@ -1,0 +1,222 @@
+
+
+.CarouselContainer{
+  width: 100%;
+  height: 75%;
+  margin-top: 1.5vw;
+}
+
+  .swiper {
+    width: 60vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .swiper-wrapper {
+    width: 100%;
+    height: 80%;
+  }
+  .swiper-slide.slide-inner{
+    width: 40%;
+    height: 100%;
+  }
+  .eventsimage:hover{
+    transform: scalex(1.1);
+    transition: 0.5s;
+  }
+  .swiper-slide {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .eventdetails{
+    color: white;
+  }
+
+  .swiper img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+  }
+  .Slidercontainermain{
+    height: 100vh;
+  }
+  .Slidercontainermain{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .eventimage{
+    width: auto;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+  .eventimage>img{
+    width: auto;
+    height: 100%;
+  }
+  .eventdetailsmaincontainer{
+    display: flex;
+    height: fit-content;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .eventdescription{
+  color: white;
+  font-weight: 600;
+}
+.eventimageptag{
+  margin-right: 10px;
+}
+  .eventdetails{
+    width: fit-content;
+    height: 80%;
+    min-width: 30vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .swiper-pagination-bullet-active {
+    width: 15px;
+    border-radius: 15px;
+    transition: width 0.3s ease;
+  }
+  .eventdetailsmaincontainer .outer{
+    display: none;
+  }
+  .filebutton{
+    color: black;
+    border-radius: 10px;
+    background-color: bisque;
+  }
+  .registerbutton{
+    color:white;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: bisque;
+  }
+  .registerbuttona{
+    text-decoration: none;
+    color: black ;
+  }
+  .registerbuttona:hover{
+    color: rgb(99, 14, 14);
+  }
+
+  .swiper {
+    --swiper-pagination-color: rgba(56, 245, 255, 1);
+    --swiper-pagination-bullet-inactive-color: white;
+  }
+
+  .button-next,
+  .button-prev {
+    position: absolute;
+    top: 50%;
+    width: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(56, 245, 255, 0.2);
+    transform: translateY(-50%);
+    cursor: pointer;
+    z-index: 10;
+  }
+  :is(.button-next, .button-prev):hover {
+    background-color: rgba(56, 245, 255, 0.3);
+  }
+
+  .button-next {
+    right: 10px;
+  }
+  .button-prev {
+    left: 10px;
+  }
+    .eventdetails .inner{
+      display: block;
+      padding: 10px;
+    }
+
+
+
+  @media only screen and (max-width: 600px) {
+    .eventdetails .inner{
+      display: none;
+    }
+    .eventdetailsmaincontainer .outer{
+      display: block;
+    }
+    .swiper{
+      height: 60%;
+    }
+    .eventimage>img {
+      width: 100%;
+      height: auto;
+  }
+  .Slidercontainermain {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw;
+}
+.eventimage {
+  width: 80%;
+  height: fit-content;
+}
+.eventdescription{
+  color: white;
+  font-weight: 600;
+  padding: 7vw;
+  padding-top: 0;
+}
+.eventdescription p{
+  margin-bottom: 0;
+}
+.eventdetailsmaincontainer{
+  min-height: 100vh;
+}
+  }
+  @media only screen and (max-width: 450px) {
+    .swiper{
+      height: 60%;
+      width: auto;
+    }
+  }
+
+  a{
+    text-decoration: none;
+  }
+  /* new code  */
+  /* carouselstyles.css or your custom CSS file */
+
+  .download-label {
+    font-weight: bold;
+    margin-right: 8px; /* Adjust spacing as needed */
+  }
+
+  .register-button {
+    margin-top: 16px; /* Adjust spacing as needed */
+  }
+
+  .register-link {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #007bff; /* Your desired button color */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+
+  .register-link:hover {
+    background-color: #0056b3; /* Darker color on hover */
+  }
