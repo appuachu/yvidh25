@@ -42,7 +42,7 @@ export default function Mainevent() {
             filename: '',
             filelink:"",
             id:"37",
-            reglink:"http://reg.yvidh.live/solo_sizzle/"
+            reglink:"http://reg.yvidh.live/solo_sizzle/8"
           },
           {
             src: './assets_new/main_events/REEL FEST.jpg',

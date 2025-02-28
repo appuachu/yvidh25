@@ -115,7 +115,9 @@ function App() {
               <li className="nav-item">
                 <a className="nav-link" href="#AboutUs" onClick={handleContactsundoClick}>About</a>
               </li>
-              
+              <li className="nav-item">
+                <a className="nav-link" href="" onClick={handleContactsClick}></a>
+              </li>
             </ul>
           </div>
         </div>

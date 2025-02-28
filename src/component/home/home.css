@@ -98,12 +98,11 @@
     background-color: rgba(128, 128, 128, 0.338);
 }
 .navbar-brands>img{
-    width: 150%;
-    height: 93%;
+    width: 100%;
+    height: 100%;
 }
 .navbar-brands{
-    margin-left: -70px;
-    height: 300%;
+    height: 100%;
 }
 
 
@@ -128,6 +127,16 @@
     max-width: fit-content;
 
 }
+
+
+
+
+
+
+
+
+
+
 
 
 

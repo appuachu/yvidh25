@@ -41,7 +41,7 @@ export default function Fag({handleCreditsClick}) {
     useEffect(() => {
         const handleResize = () => {
             if (window.innerWidth <= 768) {
-                setImageSrc('./assets_new/Ph_faq.webp');
+                setImageSrc('./assets_new/faq_final.webp');
             } else {
                 setImageSrc('./assets_new/countdown.jpg');
             }
