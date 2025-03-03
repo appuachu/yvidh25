@@ -8,13 +8,13 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 export default function Countdown() {
-  
+
   const [imageSrc, setImageSrc] = useState('./assets/countdown/Countdown.webp');
   useEffect(() => {
     AOS.init({ duration: 1000 });
     const handleResize = () => {
       if (window.innerWidth <= 768) {
-          setImageSrc('./assets_new/Spiderman_phone.jpg');
+          setImageSrc('./assets_new/spiderman_phone.jpg');
       } else {
           setImageSrc('./assets_new/home/deadpool_cluster.jpg');
       }
@@ -57,20 +57,20 @@ export default function Countdown() {
         ></Parallax>
         <div className="countkathak">
         <div className="kathakali">
-            
+
               {/* <div data-aos="fade-up-left"> */}
                 <img
-                  
+
                   className="kathakimage rotate"
                   src="./assets_new/yvidhlogo.png"
                 />
               {/* </div> */}
-            
+
           </div>
           <div className="countdowndisplay">
             <Counter />
           </div>
-          
+
         </div>
       </div>
     </div>
