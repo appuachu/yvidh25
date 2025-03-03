@@ -92,10 +92,12 @@
 
 .navbar.navbar-expand-lg.navbar-light{
     width: 94%;
-    height: 100%;
-    height: 100%;
+    height: 60px; /* Adjust as needed */
+    min-height: 40px; /* Ensures it doesn’t shrink too much */
     border-radius: 3vw;
     background-color: rgba(128, 128, 128, 0.338);
+    display: flex;
+    align-items: center; /* Centers items vertically */
 }
 .navbar-brands>img{
     width: 100%;

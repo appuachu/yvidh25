@@ -44,7 +44,7 @@ export default function FeatureEvent({handleDepartmentClick,handleSpecialClick,h
     <div className='feateventmaincontainer' style={{backgroundImage: `url(${imageSrc})`}}>
       <div className='feateventcontainer'>
       <div className='featevent'>
-        <a className=" feateventa" href="" onClick={handleDepartmentClick} >
+        <a className=" feateventa" href="#departmentevents" onClick={handleDepartmentClick} >
           <img className='feateventaimg' src={depsrc}  alt=''/>
           </a>
           <div className='eventbase'>
@@ -59,7 +59,7 @@ export default function FeatureEvent({handleDepartmentClick,handleSpecialClick,h
             </div>
           </div>
           <div className='featevent'  >
-          <a className=" feateventa" href="" onClick={handleSpecialClick}>
+          <a className=" feateventa" href="#specialevent" onClick={handleSpecialClick}>
             <img src={specialsrc} alt=''/>
             </a>
             <div className='eventbase'>

@@ -5,34 +5,33 @@ import Events from '../events/events'
 export default function Special() {
     const special = [
         {
-            src: './assets/carouselImages/AUTOSHW.webp',
+            src: './assets_new/special/autoshow.jpg',
             title: 'AUTOSHOW',
             description: `🚗🏁AUTO SHOW!!!🏁🚗\n
-            Get reved up for the Autoshow ! It's the ultimate auto show where you'll see the coolest cars and latest tech in action.\nFrom sleek designs to mind-blowing innovations, get ready for an adrenaline rush like no other! Don't miss out on the excitement – join us at YVIDH 2024 for an unforgettable moment!\n
+            Get reved up for the Autoshow ! It's the ultimate auto show where you'll see the coolest cars and latest tech in action.\nFrom sleek designs to mind-blowing innovations, get ready for an adrenaline rush like no other! Don't miss out on the excitement – join us at YVIDH 2025 for an unforgettable moment!\n
             📌Venue-St. Thomas College of Engineering & Technology \n
-            📌Date-April 4th\n
+            📌Date-March 7th\n
             📌website - www.yvidh.live\n
             Coordinators\n
-            SREEHARI : 9746319601\n
-            ANANDHU : 7510588009\n
-            JEFFIN : 8547936120`,
+            FAIZAL : 7994492431\n
+            SIDHARTH : 8848866945\n
+            ARSHIN : 8921327756`,
             filename: '',
             id:"50",
             reglink: ''
           },
           {
-            src: './assets/carouselImages/soapyfootball.webp',
-            title: 'SOAPY FOOTBALL',
-            description:`⚽ SOAPY FOOTBALL !!!\n
-            Get ready for an exhilarating and hilarious experience with Soapy Football, one of the most anticipated events at YVIDH 2K24! \nThis unique twist on the traditional game of football combines the thrill of competition with the slippery fun of soapy water, creating an unforgettable experience for participants and spectators alike.\n
+            src: './assets_new/special/VINTAGE.jpg',
+            title: 'VINTAGE M0TO',
+            description:` VINTAGE MOTO !!!\n
+            A vintage moto show at a college fest will feature iconic vehicles like the RX100, Jawa, Chetak etc... showcasing their timeless design and history. With bike demos, restoration, workshops, and a competitive display, it would celebrate these classic machines and their unique charm..\n
             📌Venue-St. Thomas College of Engineering & Technology\n
-            📌Date-April 4th\n
-            📌Registration fees-100/- per team of 5 members \n
+            📌Date-March 7th\n
             📌website - www.yvidh.live\n
             Coordinators\n
-            NIBIN : 8139812566\n
-            ANANDHU : 7907574050\n
-            ALFIN : 9895572208`,
+            BEN : 7994950410\n
+            ABHIJITH : 9074936482\n
+            AFEEF : 8075402941`,
             filename: '',
             id:"51",
             reglink:''

@@ -8,7 +8,7 @@ export default function Fag({handleCreditsClick}) {
     {
       question: "Do you have any transportation facilities?",
       answer:
-        "No",
+        "Participants can use college bus",
       open: false
     },
     {

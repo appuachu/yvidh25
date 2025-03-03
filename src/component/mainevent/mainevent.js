@@ -9,7 +9,7 @@ export default function Mainevent() {
             title: 'Battle of Beats',
             filename: '',
             filelink:"",
-            id:"33",
+            id:"34",
             reglink:"http://reg.yvidh.live/battle_of_beats/"
           },
           {
@@ -17,7 +17,7 @@ export default function Mainevent() {
             title: 'Voice Of Yvidh',
             filename: '',
             filelink:"",
-            id:"34",
+            id:"35",
             reglink:"http://reg.yvidh.live/voice_of_yvidh/"
           },
           {
@@ -25,7 +25,7 @@ export default function Mainevent() {
             title: 'CHOREONITE',
             filename: '',
             filelink:"",
-            id:"35",
+            id:"36",
             reglink:"http://reg.yvidh.live/choreonite/"
           },
           {
@@ -33,7 +33,7 @@ export default function Mainevent() {
             title: 'Man Of Steel',
             filename: '',
             filelink:"",
-            id:"36",
+            id:"37",
             reglink:"http://reg.yvidh.live/man_of_steel/"
           },
           {
@@ -41,7 +41,7 @@ export default function Mainevent() {
             title: 'Solo Sizzle',
             filename: '',
             filelink:"",
-            id:"37",
+            id:"38",
             reglink:"http://reg.yvidh.live/solo_sizzle/8"
           },
           {
@@ -49,7 +49,7 @@ export default function Mainevent() {
             title: 'Reel Fest',
             filename: '',
             filelink:"",
-            id:"38",
+            id:"39",
             reglink:"http://reg.yvidh.live/reel_fest/"
           },
     ]
