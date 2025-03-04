@@ -10,7 +10,7 @@ export default function Mainevent() {
             filename: '',
             filelink:"",
             id:"34",
-            reglink:"http://reg.yvidh.live/battle_of_beats/"
+            reglink:"https://docs.google.com/forms/d/e/1FAIpQLSfEhUuP4aeBDdBxqlsjVw_hMpCCWSYG1wWTmKbyYtpqcc7-NA/viewform?usp=header"
           },
           {
             src: './assets_new/main_events/voice of yvidh.jpg',
@@ -18,7 +18,7 @@ export default function Mainevent() {
             filename: '',
             filelink:"",
             id:"35",
-            reglink:"http://reg.yvidh.live/voice_of_yvidh/"
+            reglink:"https://docs.google.com/forms/d/e/1FAIpQLSfEhUuP4aeBDdBxqlsjVw_hMpCCWSYG1wWTmKbyYtpqcc7-NA/viewform?usp=header"
           },
           {
             src: './assets_new/main_events/CHOREONITE.jpg',
@@ -26,7 +26,7 @@ export default function Mainevent() {
             filename: '',
             filelink:"",
             id:"36",
-            reglink:"http://reg.yvidh.live/choreonite/"
+            reglink:"https://docs.google.com/forms/d/e/1FAIpQLSfEhUuP4aeBDdBxqlsjVw_hMpCCWSYG1wWTmKbyYtpqcc7-NA/viewform?usp=header"
           },
           {
             src: './assets_new/main_events/MUSCLE WAR.jpg',
@@ -34,7 +34,7 @@ export default function Mainevent() {
             filename: '',
             filelink:"",
             id:"37",
-            reglink:"http://reg.yvidh.live/man_of_steel/"
+            reglink:"https://docs.google.com/forms/d/e/1FAIpQLSfEhUuP4aeBDdBxqlsjVw_hMpCCWSYG1wWTmKbyYtpqcc7-NA/viewform?usp=header"
           },
           {
             src: './assets_new/main_events/solo sizzle.jpg',
@@ -42,7 +42,7 @@ export default function Mainevent() {
             filename: '',
             filelink:"",
             id:"38",
-            reglink:"http://reg.yvidh.live/solo_sizzle/8"
+            reglink:"https://docs.google.com/forms/d/e/1FAIpQLSfEhUuP4aeBDdBxqlsjVw_hMpCCWSYG1wWTmKbyYtpqcc7-NA/viewform?usp=header"
           },
           {
             src: './assets_new/main_events/REEL FEST.jpg',
@@ -50,7 +50,7 @@ export default function Mainevent() {
             filename: '',
             filelink:"",
             id:"39",
-            reglink:"http://reg.yvidh.live/reel_fest/"
+            reglink:"https://docs.google.com/forms/d/e/1FAIpQLSfEhUuP4aeBDdBxqlsjVw_hMpCCWSYG1wWTmKbyYtpqcc7-NA/viewform?usp=header"
           },
     ]
   return (
